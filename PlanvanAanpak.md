@@ -77,7 +77,8 @@ Om het product te maken, moet een technisch ontwerp worden gemaakt. Dit moet, om
 We gaan alle IT-services van de politie vervangen, om aan te tonen dat dit mogelijk is maken we hiervoor een Proof-of-Concept. Dit bestaat ut een DC met spilfunctie waarop alle IT-services van een provincie draaien. Er zit een DMZ in en er is toegang tot de services mogelijk. Er is ook toegang tot het centrale politie netwerk en externe netwerken. Naast de hoofdlocatie bevat de PoC twee districtkantoren. Hierop zijn werkplekken van medewerkers. Per district heeft de PoC twee basisteams. Ook is  het mogelijk dat elke fysieke locatie meerdere korpsen heeft en is het mogelijk dat een provincie of district meerdere locaties bevat.
 
 **Het Testplan**
-Het testplan bevat een end-to-end test van de complete infrastructure as code code. end-to-end testen is een testmethodiek die de gehele werking van een product test, van begin tot eind. Het verifieërd dat elk component van de gemaakte software kan draaien in  
+
+Het testplan bevat een end-to-end test van de complete infrastructure as code. End-to-end testen is een testmethodiek die de gehele werking van een product test, van begin tot eind. Het verifieërd dat elk component van de gemaakte software kan draaien in scenario's die in de echte wereld plaatsvinden. 
 
 **De evaluatie van het Proof-of-Concept**
 
@@ -148,7 +149,7 @@ De scrum rollen binnen het project zijn:
 Week 1-4:
 
   - **Scrum master:** Timothy Swaab
-  - **Scrum coach:** Thomas Thoussaint
+  - **Scrum coach:** Thomas Toussaint
   - **Product owner-by-proxy:** Tamer Kersten
   - **Developer:** Jorian Borst
 
