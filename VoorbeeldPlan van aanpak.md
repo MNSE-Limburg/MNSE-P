@@ -4,6 +4,7 @@
   - [1. Inleiding](#1-inleiding)
   - [2. Achtergrond van het project](#2-achtergrond-van-het-project)
   - [3. Doelstelling, opdracht en op te leveren resultaten voor het bedrijf en school](#3-doelstelling-opdracht-en-op-te-leveren-resultaten-voor-het-bedrijf-en-school)
+    - [3.1 Concrete Resultaten](#31-concrete-resultaten)
   - [4. Projectgrenzen](#4-projectgrenzen)
     - [Projectduur](#projectduur)
     - [Grenzen](#grenzen)
@@ -306,7 +307,7 @@ Overige gemaakte afspraken binnen de projectgroep zoals vooraf geplande afwezigh
 ## 9. Planning
 
 | Activiteit                                             | Startdatum         | Einddatum        | Op te leveren product                                                |
-| ------------------------------------------------------ | ------------------ | ---------------- | -------------------------------------------------------------------- | --- |
+| ------------------------------------------------------ | ------------------ | ---------------- | -------------------------------------------------------------------- |
 | Project Startup                                        | 05-04-2022         | 12-04-2022       |                                                                      |
 | Inleveren Plan van Aanpak                              | 12-04-2022         | 12-04-2021 13:00 | Eerste versie Plan van Aanpak                                        |
 | Tussentijdse inlevering verantwoording projectbijdrage | 11-05-2022         | 11-05-2022 16:00 | verantwoording projectbijdrage                                       |
@@ -316,15 +317,15 @@ Overige gemaakte afspraken binnen de projectgroep zoals vooraf geplande afwezigh
 | **Sprint 1**                                           | 19-04-2022         | 09-05-2022       | Uitvoeren van de sprint invullen zoals gegeven bij de sprintplanning |
 | Sprint planning 1                                      | 19-04-2022         |                  | Invulling van sprint 1                                               |
 | Retro spective 1                                       | 29-04-2022         |                  | Verbeterings punten voor onszelf opstellen                           |
-| Sprint review 1                                        | 09-05-2022         |                  | Vooruitgang tonen aan de begeleiders en opdrachtgever                |     |
+| Sprint review 1                                        | 09-05-2022         |                  | Vooruitgang tonen aan de begeleiders en opdrachtgever                |     
 | **Sprint 2**                                           | 10-05-2022         | 23-05-2022       | Uitvoeren van de sprint invullen zoals gegeven bij de sprintplanning |
 | Sprint planning 2                                      | 10-05-2022         |                  | Invulling van sprint 2                                               |
-| Retro spective 2                                       | 20-05-2022         |                  | Verbeterings punten voor onszelf opstellen                           |     |
-| Sprint review 2                                        | 23-05-2022         |                  | Vooruitgang tonen aan de begeleiders en opdrachtgever                |     |
+| Retro spective 2                                       | 20-05-2022         |                  | Verbeterings punten voor onszelf opstellen                           |     
+| Sprint review 2                                        | 23-05-2022         |                  | Vooruitgang tonen aan de begeleiders en opdrachtgever                |     
 | **Sprint 3**                                           | 24-05-2022         | 06-06-2022       | Uitvoeren van de sprint invullen zoals gegeven bij de sprintplanning |
 | Sprint planning 3                                      | 24-05-2022         |                  | Invulling van sprint 3                                               |
-| Retro spective 3                                       | 03-06-2022         |                  | Verbeterings punten voor onszelf opstellen                           |     |
-| Sprint review 3                                        | 06-06-2022         |                  | Vooruitgang tonen aan de begeleiders en opdrachtgever                |     |
+| Retro spective 3                                       | 03-06-2022         |                  | Verbeterings punten voor onszelf opstellen                           |     
+| Sprint review 3                                        | 06-06-2022         |                  | Vooruitgang tonen aan de begeleiders en opdrachtgever                |     
 | **Sprint post-game**                                   | 07-05-2022         | 10-06-2022       |                                                                      |
 
 **Daily Stand-up**
