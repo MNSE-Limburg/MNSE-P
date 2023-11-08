@@ -3,7 +3,7 @@ MNSE Project
 Plan van Aanpak
 Versie 1.0
 
-- [1, Inleiding](#1-inleiding)
+- [1. Inleiding](#1-inleiding)
 - [2. Achtergrond van het project](#2-achtergrond-van-het-project)
 - [3. Doelstelling, opdracht en op te leveren resultaten](#3-doelstelling-opdracht-en-op-te-leveren-resultaten)
     - [3.1 Concrete Resultaten](#31-concrete-resultaten)
@@ -29,7 +29,7 @@ Versie 1.0
 
 ---
 
-# 1, Inleiding
+# 1. Inleiding
 
 Dit document dient als een contract tussen de projectleden en de opdrachtgever, waarin de schaal van het project, de te leveren producten en gemaakte afspraken worden vastgelegd. Voor dit project is Eddie Vagevuur onze opdrachtgever. Eddie en de Politie willen graag hun IT-services meer flexibel, schaalbaar en veiliger maken.
 

@@ -125,7 +125,7 @@ Infrastructuur:
 2. Heb je nog vragen voor ons?
 
 
-Rekening houden met provicies. Provicies kunne bereiken
+Rekening houden met provicies. Provicies kunnen bereiken
 medewerker van gelderland kan naar limburg inloggen bijv.
 Met andere provicies kunnen communiceren
 komt een backbone waaraan wij verbinden.
