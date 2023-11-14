@@ -22,7 +22,7 @@ Dat moet nog onderzoekt worden. Onderbouwen. **Limburg.Local als naam GEEN Limbu
 
 2. De applicatie ROVER wordt redelijk expliciet genoemd in de opdracht, is het de bedoeling dat wij daar iets mee doen? (valt redelijk buiten onze kaders namelijk)
 
-Er moet internet toegang zijn vanaf het internet. Je krijgt een VPN ter beschikking hiervoor. 2 kanten bereikbaar. Zelf een oplossing bouwen, krijgt geen oplossing daarvoor. 'Maak het niet te mooi' functionaliteit iets met BSN en dat soort zaken allemaal, houden aan de AVG. Het moet gerigistreert worden in een SQL-database.
+Er moet internet toegang zijn vanaf het internet. Je krijgt een VPN ter beschikking hiervoor. 2 kanten bereikbaar. Zelf een oplossing bouwen, krijgt geen oplossing daarvoor. 'Maak het niet te mooi' functionaliteit iets met BSN en dat soort zaken allemaal, houden aan de AVG. Het moet geregistreert worden in een SQL-database.
 
 1. Welke mate van centralisatie zien jullie graag?(aangezien er bij crisisteams het nu vaak veel tijd kost om apparatuur te verhuizen)?
 
