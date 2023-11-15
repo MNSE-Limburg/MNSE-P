@@ -4,16 +4,16 @@
   - [x] Voeg toe; 'De consultants' o.a. Rene en Evelien
 
 - Doelstelling
-  - [ ] Doel mag minder technisch volgens Rene, het is niet fout wat er staat.
-  - [ ] Wat heb ik dan?
-  - [ ] Welk doel heb ik dan bereikt?
+  - [x] Doel mag minder technisch volgens Rene, het is niet fout wat er staat.
+  - [x] Wat heb ik dan?
+  - [x] Welk doel heb ik dan bereikt?
 
 - Projectgrenzen
   - [x] Proof of Concept moet anders geschreven worden onder de grens (zinnen met het woord 'dus' zijn ongewenst).
   - [x] Voip moet worden aangepast onder de grens (We gebruiken standaard...).
   - [x] Security onder de grens (Beter opschrijven en conceptueel).
-  - [ ] Mail onder de grens (Duidelijker beschrijven, moet kunnen communiceren en hoeft niet doormiddel van een mailserver).
-  - [ ] VPN onder de grens (Hoort hier niet maar bij randvoorwaarden).
+  - [x] Mail onder de grens (Duidelijker beschrijven, moet kunnen communiceren en hoeft niet doormiddel van een mailserver).
+  - [x] VPN onder de grens (Hoort hier niet maar bij randvoorwaarden).
 
 - Randvoorwaarden
   - [ ] Controleren als Eddie binnen 24 uur altijd kan reageren tijdens werkdagen.
@@ -28,6 +28,6 @@
 
 - Overige
   - [x] Zet definition of done in PvA, bij voorkeur onder tabel 1 en concrete resultaten.
-  - [ ] Gemaakte afspraken nog concreter maken, geef het meer context.
+  - [ ] Gemaakte afspraken nog concreter maken, geef het meer context (Maak het meer specifiek)
   - [x] Contactpersoon niet bereikbaar omzetten naar randvoorwaarden (Mogelijk veranderen naar opdrachtgever om het specifieker te maken).
-  - [ ] Extreem consucenties bij afwezigheid --> overleg met Evelien
+  - [x] Extreem consucenties bij afwezigheid --> overleg met Evelien
