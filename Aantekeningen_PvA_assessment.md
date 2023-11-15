@@ -1,7 +1,7 @@
 ***Assessment PvA met de consultants op 14-11-2023***
 
 - Stakeholders
-  - [ ] Voeg toe; 'De consultants' o.a. Rene en Evelien
+  - [x] Voeg toe; 'De consultants' o.a. Rene en Evelien
 
 - Doelstelling
   - [ ] Doel mag minder technisch volgens Rene, het is niet fout wat er staat.
