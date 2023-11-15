@@ -27,6 +27,7 @@
   - Projectorganisatie (Contactpersonen staan er nu, moet eigenlijk de consultants zijn en dat zijn Rene en Evelien).
 
 - Overige
-  - Zet definition of done in PvA, bij voorkeur onder tabel 1.
+  - Zet definition of done in PvA, bij voorkeur onder tabel 1 en concrete resultaten.
   - Gemaakte afspraken nog concreter maken, geef het meer context.
   - Contactpersoon niet bereikbaar omzetten naar randvoorwaarden (Mogelijk veranderen naar opdrachtgever om het specifieker te maken).
+  - Extreem consucenties bij afwezigheid --> overleg met Evelien
