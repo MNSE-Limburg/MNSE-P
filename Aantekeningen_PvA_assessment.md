@@ -21,14 +21,14 @@
   - [x] Consultants moeten nog worden toegevoegd.
 
 - In tabel 1
-  - [ ] Onderzoeksverslagen (Methodcards voldoet aan, zin aanpassen).
-  - [ ] Onderzoeksvragen (Vastgesteld en die tussendoor worden gereviewd).
+  - [x] Onderzoeksverslagen (Methodcards voldoet aan, zin aanpassen).
+  - [x] Onderzoeksvragen (Vastgesteld en die tussendoor worden gereviewd).
   
 
 - Overige
   - [x] Zet definition of done in PvA, bij voorkeur onder tabel 1 en concrete resultaten.
-  - [ ] Gemaakte afspraken nog concreter maken, geef het meer context (Maak het meer specifiek)
+  - [x] Gemaakte afspraken nog concreter maken, geef het meer context (Maak het meer specifiek)
   - [x] Contactpersoon niet bereikbaar omzetten naar randvoorwaarden (Mogelijk veranderen naar opdrachtgever om het specifieker te maken).
   - [x] Extreem consucenties bij afwezigheid --> overleg met Evelien
-  - [ ] Ontwikkelmethoden (Waarom biedt dat voordelen even verder uitschrijven en verduidelijken met uitleg).
-  - [ ] Projectorganisatie (Contactpersonen staan er nu, moet eigenlijk de consultants zijn en dat zijn Rene en Evelien).
+  - [x] Ontwikkelmethoden (Waarom biedt dat voordelen even verder uitschrijven en verduidelijken met uitleg).
+  - [x] Projectorganisatie (Contactpersonen staan er nu, moet eigenlijk de consultants zijn en dat zijn Rene en Evelien).
