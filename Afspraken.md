@@ -25,7 +25,7 @@ Kwaliteitsmanager: Thomas Toussaint
 ## Werktijden
 
 Standaard werk tijden:
- **09:30 - 16:30**
+ **09:00 - 16:30**
 Standaard pauze tijd:
  **12:15 – 13:00**
 
@@ -33,7 +33,7 @@ Standaard pauze tijd:
 
 Werktijden vrijdag:
 
- **09:30 - 14:30**
+ **09:00 - 14:30**
 
 ### Scrum Ceremonies
 
