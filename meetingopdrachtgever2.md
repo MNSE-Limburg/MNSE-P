@@ -122,4 +122,4 @@ Printers toevoegen is leuk (Opdrachtgever Eddie vindt dat interesanter)
 opdrachtgever heeft een gruwelijke hekel aan saaie presentatie, maak het levendig.
 2 dns server:
     1 = microsoft
-    1 = (biens?? naam verkeerd verstaan) 
+    1 = Bind8
