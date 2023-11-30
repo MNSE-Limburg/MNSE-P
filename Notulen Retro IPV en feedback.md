@@ -83,3 +83,32 @@ Aandacht wordt verloren de langer dat de dag ingaat. Disscussie in het team en n
 
 **Concrete afspraken tijdens project**
 Voeg een post-conditie(criteria) toe aan het review-proces
+
+<h1>Extra</h1>
+<h2>Geschreven door Tamer</h2>
+<h3>IPV, feedback en retro</h3>
+
+**Timothy**
+**Tops**: Vraagt vaak als het goed gaat, dit is erg fijn. 'helpt graag anderen', Krijg het gevoel als je veel kennis hebt of snel doorhebt waar we het over hebben.
+Ook ben je zeker een harde werker, doe en beweeg je veel werk dit is fijn. Ik krijg dankzij jou het medegevoel dat we het gezamenlijk gaan halen.
+
+**Tips**: Toch soms nog moeite aandacht te behouden in een gesprek, is hier verbetering in te vinden? 
+Kan heel snel aandacht verliezen en landurige afgeleid zijn, zoek hier verbetering in door oortjes of iets soortgelijk te gebruiken om focus te behouden. (Alhoewel heeft ieder hier wel last van, komt het vaker voor bij jou).
+
+---
+**Thomas**
+**Tops**: Heeft goed inzicht op hoe iets geschreven moet worden en dan specifiek de verwoording van een zin of geschreven alinea.
+Heeft een realistische blik op dingen wat vaak handig kan zijn in gemaakt keuzes.
+
+**Tips**: Duidelijk aangegeven waar de moeite ligt, dit is soms lastig te merken.
+Opletten dat je niet teveel geplande tijd gebruikt voor een taak, sneller aangegeven als dit gaat uilopen dan kan het team hier of rekening mee houden of het delegeren en of wegleggen. 
+
+---
+**Jorian**
+**Tops**: Werkt echt super veel(een harde werker dus), mede door ervaring van voorgaande keren doen. Hierdoor krijg je een soepel gevoel als het wel gaat lukken met zekerheid. Sluit ook aan eerder op wat ik tegen Timothy zei.
+
+**Tips**: Omdat er veel ervaring is werk je mogelijk teveel? (zowel een tip als top).
+Toch kijken als je taken verder kan opdelen aan het projectteam of afgeven.
+Als je ergens mee zit binnen het team geeft dit dan eerder aan en stel dit niet uit, verwacht niet dat de tegenpersoon doorheeft waar jij veel last van hebt.
+
+---
