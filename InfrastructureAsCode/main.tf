@@ -66,7 +66,7 @@ resource "proxmox_vm_qemu" "test_server" {
     ]
   }
 
-#  ipconfig0 = "ip=192.168.178.240${count.index + 1}/24,gw=192.168.178.1"  
+  # ipconfig0 = "ip=192.168.178.240${count.index + 1}/24,gw=192.168.178.1"  
 
   # the ${count.index + 1} thing appends text to the end of the ip address
   # in this case, since we are only adding a single VM, the IP will
