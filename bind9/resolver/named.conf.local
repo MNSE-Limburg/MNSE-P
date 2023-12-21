@@ -1,0 +1,71 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+acl "trusted" {
+  172.30.48.0/24;
+  172.30.49.0/24;
+  172.30.50.0/24;
+  172.30.51.0/24;
+  172.30.52.0/24;
+  172.30.52.2;
+  10.1.1.0/24;
+  localhost;
+  localnets;
+};
+
+// Set up our personal DNS resolver
+options {
+  directory "/var/cache/bind";
+
+  auth-nxdomain no;
+  dnssec-validation no;
+  // Avoid DNS-amplification / open resolver:
+  allow-recursion { any; };
+  allow-query-cache { any; };
+  allow-query { any; };
+  allow-transfer { any; };
+
+  listen-on port 53 { any; };
+  listen-on-v6 port 53 { any; };
+
+};
+
+zone "nl" in {
+  type forward;
+  forwarders{
+        1.1.1.1; 8.8.8.8;
+  };
+};
+
+zone "com" in {
+  type forward;
+  forwarders{
+        1.1.1.1; 8.8.8.8;
+ };
+};
+
+zone "net" in {
+  type forward;
+  forwarders{
+        1.1.1.1; 8.8.8.8;
+ };
+};
+
+zone "io" in {
+  type forward;
+  forwarders{
+        1.1.1.1; 8.8.8.8;
+ };
+};
+
+zone "win" in {
+  type forward;
+  forwarders{
+        1.1.1.1; 8.8.8.8;
+ };
+};

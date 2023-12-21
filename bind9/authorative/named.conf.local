@@ -1,0 +1,7 @@
+//include "/etc/bind/zones.rfc1918";
+
+zone "politie-limburg.pet" {
+
+        type master;
+        file "/etc/bind/zones/db.politie-limburg.pet";
+};
