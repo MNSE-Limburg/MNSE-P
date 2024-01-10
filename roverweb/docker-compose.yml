@@ -11,32 +11,25 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - php
+      - postgres
+
 
   php:
-    image: php:7.4-fpm
+    build:
+      context: .
+      dockerfile: dockerfile
     volumes:
       - ./src:/var/www/html
     depends_on:
-      - mssql
-    links:
-      - mssql
-    command: >
-      sh -c "apt-get update && apt-get install -y \
-      unixODBC-dev \
-      && pecl install pdo_sqlsrv sqlsrv \
-      && docker-php-ext-enable pdo_sqlsrv sqlsrv \
-      && php-fpm"
+      - postgres
 
-  mssql:
-    image: mcr.microsoft.com/mssql/server
+  postgres:
+    image: postgres:latest
     environment:
-      SA_PASSWORD: YourStrongPassword@
-      ACCEPT_EULA: Y
-      MSSQL_PID: Express
+      POSTGRES_USER: your_username
+      POSTGRES_PASSWORD: your_password
+  #    POSTGRES_DB: aangiftes
     ports:
-      - "1433:1433"
-    healthcheck:
-      test: [ "CMD", "/opt/mssql-tools/bin/sqlcmd", "-U", "sa", "-P", "YourStrongPassword@", "-Q", "SELECT 1" ]
-      interval: 10s
-      timeout: 5s
-      retries: 3
+      - "5432:5432"
+    volumes:
+      - ./sql-scripts:/docker-entrypoint-initdb.d 

@@ -1,40 +1,35 @@
 <?php
-$serverName = "172.30.48.29:"; // Replace with your SQL Server name
-$connectionOptions = array(
-    "Database" => "aangiftes", // Replace with your database name
-    "Uid" => "sa", // Replace with your SQL Server username
-    "PWD" => "P@ssword" // Replace with your SQL Server password
-);
+$host = "postgres"; // Replace with your PostgreSQL host
+$port = "5432"; // Replace with your PostgreSQL port (usually 5432)
+$dbname = "aangiftes";  // Replace with your PostgreSQL database name
+$user = "your_username";         // Replace with your PostgreSQL username
+$password = "your_password";     // Replace with your PostgreSQL password
 
 // Establishes the connection
-$conn = sqlsrv_connect($serverName, $connectionOptions);
-
-if (!$conn) {
-    die(print_r(sqlsrv_errors(), true));
+try {
+    $conn = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Connection failed: " . $e->getMessage());
 }
 
 // Process the form data
 $naam = $_POST['naam'];
 $email = $_POST['email'];
-$anoniem = $_POST['anoniem'];
+$anoniem = isset($_POST['anoniem']) ? 1 : 0;
 $locatie = $_POST['locatie'];
 $misdaad = $_POST['misdaad'];
 $omschrijving = $_POST['omschrijving'];
 
-// Insert data into the database
-$sql = "INSERT INTO aangifte (1, naam, email, anoniem, locatie, misdaad, omschrijving) VALUES (?, ?, ?, ?, ?, ?, ?)";
-$params = array($id, $naam, $email, $anoniem, $locatie, $misdaad, $omschrijving);
-$stmt = sqlsrv_query($conn, $sql, $params);
 
-if ($stmt === false) {
-    die(print_r(sqlsrv_errors(), true));
-} 
+
+// Insert data into the database
+$sql = "INSERT INTO aangifte (naam, email, anoniem, locatie, misdaad, omschrijving_verdachte) VALUES ( ?, ?, ?, ?, ?, ?)";
+$stmt = $conn->prepare($sql);
+$stmt->execute([$naam, $email, $anoniem, $locatie, $misdaad, $omschrijving]);
 
 echo "Record successfully inserted.";
 
 // Close the connection
-sqlsrv_close($conn);
-
-
-
+$conn = null;
 ?>

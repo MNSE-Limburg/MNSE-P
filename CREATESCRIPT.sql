@@ -1,6 +1,6 @@
 -- Create the CrimeDatabase database
-CREATE DATABASE IF NOT EXISTS CrimeDatabase;
-USE CrimeDatabase;
+CREATE DATABASE IF NOT EXISTS aangiftes;
+USE aangiftes;
 
 -- Create the aangifte table
 CREATE TABLE IF NOT EXISTS aangifte (
