@@ -9,7 +9,7 @@ terraform {
 
 provider "proxmox" {
   # url is the hostname (FQDN if you have one) for the proxmox host you'd like to connect to to issue the commands. my proxmox host is 'prox-1u'. Add /api2/json at the end for the API
-  pm_api_url = "https://192.168.178.218:8006/api2/json"
+  pm_api_url = "https://172.30.48.1:8006/api2/json"
 
   # api token id is in the form of: <username>@pam!<tokenId>
   pm_api_token_id = "terraform@pam!terraformToken"
@@ -23,7 +23,7 @@ provider "proxmox" {
 
 # resource is formatted to be "[type]" "[entity_name]" so in this case
 # we are looking to create a proxmox_vm_qemu entity named test_server
-resource "proxmox_vm_qemu" "test_server" {
+resource "proxmox_vm_qemu" "wireguard" {
   count = 1 # just want 1 for now, set to 0 and apply to destroy VM
   name = "test-vm-${count.index + 1}" #count.index starts at 0, so + 1 means this VM will be named test-vm-1 in proxmox
 
@@ -46,7 +46,7 @@ resource "proxmox_vm_qemu" "test_server" {
   disk {
     slot = 0
     # set disk size here. leave it small for testing because expanding the disk takes time.
-    size = "32G"
+    size = "20G"
     ssd = "1"
     type = "scsi"
     storage = "local-zfs"
