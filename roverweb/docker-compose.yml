@@ -1,16 +1,42 @@
 version: '3'
 
 services:
-  # The load balancer
-  nginx:
-    image: nginx:1.16.0-alpine
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+  web:
+    image: nginx:latest
     ports:
       - "8080:80"
-
-  # The web server1
-  server1:
-    image: nginx:1.16.0-alpine
     volumes:
-      - /home/jorianb/Documents/GitHub/MNSE-P/roverweb/index.html:/usr/share/nginx/html/index.html
+      - ./src:/var/www/html
+      - ./nginx/snippets:/etc/nginx/snippets
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - php
+
+  php:
+    image: php:7.4-fpm
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - mssql
+    links:
+      - mssql
+    command: >
+      sh -c "apt-get update && apt-get install -y \
+      unixODBC-dev \
+      && pecl install pdo_sqlsrv sqlsrv \
+      && docker-php-ext-enable pdo_sqlsrv sqlsrv \
+      && php-fpm"
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: YourStrongPassword@
+      ACCEPT_EULA: Y
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: [ "CMD", "/opt/mssql-tools/bin/sqlcmd", "-U", "sa", "-P", "YourStrongPassword@", "-Q", "SELECT 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
