@@ -1,0 +1,20 @@
+C:\Users\Timot\source\repos\AD Login\AD Login\bin\Debug\AD Login.exe.config
+C:\Users\Timot\source\repos\AD Login\AD Login\bin\Debug\AD Login.exe
+C:\Users\Timot\source\repos\AD Login\AD Login\bin\Debug\AD Login.pdb
+C:\Users\Timot\source\repos\AD Login\AD Login\obj\Debug\AD Login.csproj.AssemblyReference.cache
+C:\Users\Timot\source\repos\AD Login\AD Login\obj\Debug\AD_Login.Form1.resources
+C:\Users\Timot\source\repos\AD Login\AD Login\obj\Debug\AD_Login.Properties.Resources.resources
+C:\Users\Timot\source\repos\AD Login\AD Login\obj\Debug\AD Login.csproj.GenerateResource.cache
+C:\Users\Timot\source\repos\AD Login\AD Login\obj\Debug\AD Login.csproj.CoreCompileInputs.cache
+C:\Users\Timot\source\repos\AD Login\AD Login\obj\Debug\AD Login.exe
+C:\Users\Timot\source\repos\AD Login\AD Login\obj\Debug\AD Login.pdb
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\bin\Debug\AD Login.exe.config
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\bin\Debug\AD Login.exe
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\bin\Debug\AD Login.pdb
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\obj\Debug\AD Login.csproj.AssemblyReference.cache
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\obj\Debug\AD_Login.Form1.resources
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\obj\Debug\AD_Login.Properties.Resources.resources
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\obj\Debug\AD Login.csproj.GenerateResource.cache
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\obj\Debug\AD Login.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\obj\Debug\AD Login.exe
+C:\xampp\htdocs\MNSE-P\AD Login\AD Login\obj\Debug\AD Login.pdb
