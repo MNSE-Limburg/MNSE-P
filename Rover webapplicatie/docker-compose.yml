@@ -4,11 +4,15 @@ services:
   web:
     image: nginx:latest
     ports:
-      - "8080:80"
+      - "80:80"
+      - "443:443"
     volumes:
       - ./src:/var/www/html
       - ./nginx/snippets:/etc/nginx/snippets
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./src/nginx-selfsinged.crt:/etc/nginx/ssl/nginx-selfsigned.crt
+      - ./src/nginx-selfsinged.key:/etc/nginx/ssl/nginx-selfsinged.key
+
     depends_on:
       - php
       - postgres

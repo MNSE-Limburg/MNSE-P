@@ -14,6 +14,16 @@
             "username": "sa",
             "password": "P@ssword",
             "database": "aangiftes"
+        },
+        {
+            "previewLimit": 50,
+            "server": "172.30.50.69",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "local",
+            "database": "aangiftes",
+            "username": "your_username",
+            "password": "your_password"
         }
     ]
 }
